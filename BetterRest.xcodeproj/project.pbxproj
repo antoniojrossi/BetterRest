@@ -13,6 +13,8 @@
 		F03D838C23E6F49C0091053B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03D838B23E6F49C0091053B /* Assets.xcassets */; };
 		F03D838F23E6F49C0091053B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03D838E23E6F49C0091053B /* Preview Assets.xcassets */; };
 		F03D839223E6F49C0091053B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03D839023E6F49C0091053B /* LaunchScreen.storyboard */; };
+		F03D839B23E712BB0091053B /* BetterRest.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = F03D839923E712BB0091053B /* BetterRest.mlproj */; };
+		F03D839C23E712BB0091053B /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F03D839A23E712BB0091053B /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F03D838E23E6F49C0091053B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F03D839123E6F49C0091053B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F03D839323E6F49C0091053B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03D839923E712BB0091053B /* BetterRest.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BetterRest.mlproj; sourceTree = "<group>"; };
+		F03D839A23E712BB0091053B /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				F03D838B23E6F49C0091053B /* Assets.xcassets */,
 				F03D839023E6F49C0091053B /* LaunchScreen.storyboard */,
 				F03D839323E6F49C0091053B /* Info.plist */,
+				F03D839A23E712BB0091053B /* SleepCalculator.mlmodel */,
+				F03D839923E712BB0091053B /* BetterRest.mlproj */,
 				F03D838D23E6F49C0091053B /* Preview Content */,
 			);
 			path = BetterRest;
@@ -136,6 +142,7 @@
 				F03D839223E6F49C0091053B /* LaunchScreen.storyboard in Resources */,
 				F03D838F23E6F49C0091053B /* Preview Assets.xcassets in Resources */,
 				F03D838C23E6F49C0091053B /* Assets.xcassets in Resources */,
+				F03D839B23E712BB0091053B /* BetterRest.mlproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +155,7 @@
 			files = (
 				F03D838623E6F49B0091053B /* AppDelegate.swift in Sources */,
 				F03D838823E6F49B0091053B /* SceneDelegate.swift in Sources */,
+				F03D839C23E712BB0091053B /* SleepCalculator.mlmodel in Sources */,
 				F03D838A23E6F49B0091053B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
